@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "萤石云无感睡眠伴侣",
+        "description": "请输入萤石开放平台的 AppKey / AppSecret",
+        "data": {
+          "app_key": "AppKey",
+          "app_secret": "AppSecret"
+        }
+      }
+    },
+    "error": {
+      "missing_app_key": "AppKey/AppSecret 不能为空",
+      "cannot_connect": "无法连接到萤石开放平台，请检查 AppKey/AppSecret 是否正确",
+      "unknown": "未知错误"
+    },
+    "abort": {
+      "already_configured": "该 AppKey 已经配置过了"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "选择要启用的传感器",
+        "description": "选择您想要在 Home Assistant 中显示的传感器",
+        "data": {
+          "enable_heart_rate": "启用心率传感器",
+          "enable_breath_rate": "启用呼吸率传感器",
+          "enable_sleep_status": "启用睡眠状态传感器",
+          "enable_body_movement": "启用体动传感器",
+          "enable_sleep_score": "启用睡眠评分传感器",
+          "enable_sleep_duration": "启用睡眠时长传感器（深睡/浅睡/清醒）"
+        }
+      }
+    }
+  }
+}
