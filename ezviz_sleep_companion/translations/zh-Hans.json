@@ -1,0 +1,36 @@
+{
+  "title": "萤石无感睡眠伴侣",
+  "config": {
+    "step": {
+      "user": {
+        "title": "配置萤石无感睡眠伴侣",
+        "data": {
+          "app_key": "App Key",
+          "app_secret": "App Secret",
+          "device_serial": "设备序列号",
+          "device_name": "设备名称（可选）"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "无法连接到萤石API，请检查您的凭据并重试。",
+      "invalid_auth": "认证失败，请检查您的App Key和App Secret。",
+      "unknown": "发生未知错误，请重试。"
+    },
+    "abort": {
+      "already_configured": "该设备已配置。",
+      "invalid_credentials": "提供的凭据无效。",
+      "connection_error": "连接萤石API时出错。"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "萤石无感睡眠伴侣选项",
+        "data": {
+          "update_interval": "更新间隔（秒）"
+        }
+      }
+    }
+  }
+}
