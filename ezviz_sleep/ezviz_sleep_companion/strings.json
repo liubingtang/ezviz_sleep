@@ -1,0 +1,36 @@
+{
+  "title": "EZVIZ Sleep Companion",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure EZVIZ Sleep Companion",
+        "data": {
+          "app_key": "App Key",
+          "app_secret": "App Secret",
+          "device_serial": "Device Serial Number",
+          "device_name": "Device Name (optional)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to EZVIZ API. Please check your credentials and try again.",
+      "invalid_auth": "Authentication failed. Please check your App Key and App Secret.",
+      "unknown": "An unknown error occurred. Please try again."
+    },
+    "abort": {
+      "already_configured": "This device is already configured.",
+      "invalid_credentials": "Invalid credentials provided.",
+      "connection_error": "Error connecting to EZVIZ API."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "EZVIZ Sleep Companion Options",
+        "data": {
+          "update_interval": "Update Interval (seconds)"
+        }
+      }
+    }
+  }
+}
