@@ -1,0 +1,2 @@
+# ezviz_sleep
+适用于萤石睡眠伴侣接入homeassistant
