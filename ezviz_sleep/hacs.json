@@ -1,7 +1,0 @@
-{
-  "name": "EZVIZ Sleep Companion",
-  "render_readme": true,
-  "homeassistant": "2023.1.0",
-  "content_in_root": true,
-  "filename": "ezviz_sleep_companion.zip"
-}
